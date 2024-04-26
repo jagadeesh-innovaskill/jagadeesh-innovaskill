@@ -1,0 +1,39 @@
+
+
+
+.blog_section1{
+    width: 100%;
+  }
+  .blog_section1 img{
+    width: 98vw;
+    height: 100vh;
+  }
+  
+  
+  .blog_section2{
+    display: flex;
+    justify-content: space-between;
+  
+  }
+  .blog_sec2div{
+    margin: 5vh;
+    box-shadow: 0px 0px 5px;
+    padding: 2vh;
+  
+  }
+  .blog_section2 h3{
+    color: #007664;
+  }
+  .blog_section2 img{
+    width: 25vw;
+    height: 40vh;
+  }
+  .blog_section2 p{
+    text-align: justify;
+  }
+  
+  
+  
+  
+  
+  

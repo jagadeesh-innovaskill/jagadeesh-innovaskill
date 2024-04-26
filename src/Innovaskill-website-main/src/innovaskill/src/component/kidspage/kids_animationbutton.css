@@ -1,0 +1,54 @@
+.full_animebuttonpage{
+  font-family: "Hanken Grotesk", sans-serif;
+}
+.full_animebuttonpage .animated-button {
+    position: relative;
+    /* padding: 10px 20px; */
+    padding: 5px;
+    border: none;
+    background-color: blue;
+    color: #fff;
+    /* font-size: 16px; */
+    cursor: pointer;
+    overflow: hidden;
+    font-size: 1.0rem;
+    border-radius: 1vh;
+    width: 9vw;
+    height: 5vh;
+    border: 1px solid black;
+    margin-left: 30px;
+  }
+  .animated-button:hover{
+    background-color: #045549;
+  }
+  .border-animation {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    animation: borderMove 2s linear infinite;
+  }
+  
+  @keyframes borderMove {
+    0% {
+      width: 0;
+      height: 0;
+      border-color: transparent;
+    }
+    50% {
+      width: 200%;
+      height: 200%;
+      border-color: #fff;
+    }
+    100% {
+      width: 0;
+      height: 0;
+      border-color: transparent;
+    }
+  }
+  

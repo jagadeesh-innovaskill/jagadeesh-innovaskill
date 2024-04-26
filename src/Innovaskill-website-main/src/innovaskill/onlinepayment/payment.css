@@ -1,0 +1,131 @@
+
+
+.payment-main-div{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Hanken Grotesk", sans-serif;
+    background-color: antiquewhite;
+    background-image: url('./images/5.jpg');
+    /* background-position: center; */
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+}
+
+.payment-main-div .logo-div{
+    width: 20vw;
+    position: absolute;
+    z-index: 1;
+    transform: translate(-38vw , -38vh);
+}
+
+.payment-main-div .logo-div img{
+    width: 70%;
+}
+
+.payment-main-div .payment-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.payment-main-div .payment-title h2{
+    font-size: 1.6rem;
+    font-weight: 800;
+}
+
+.payment-main-div .payment-body{
+    width: 30%;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #ffffff91;
+    box-shadow: 2px 2px 3px black;
+    border-radius: 10px;
+}
+
+/* .payment-main-div .payment-body form{
+    width: 50%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+.payment-main-div .payment-body .payment-details-div{
+    width: 100%;
+    height: 46vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.payment-body .payment-details-div .payment-body-div{
+    width:26vw;
+    height: 8vh;
+    background-color: #014d41;
+    color: #fff;
+    border-radius: 10px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.payment-details-div .payment-body-div h3{
+    width: 9vw;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.payment-details-div .payment-body-div p{
+    width: 11vw;
+    font-size: .8rem;
+    font-weight: 600;
+}
+/* 
+.payment-body form input{
+    width: 15vw;
+    height: 5vh;
+    padding: .5vh 2vw;
+    outline: none;
+    background-color: #fff;
+    border: 3px solid #014d41;
+    box-shadow: 2px 2px 3px black;
+    color: #014d41;
+    font-weight: 700;
+    border-radius: 20px;
+}
+.payment-body form input::placeholder{
+    font-weight: 700;
+    color: #014d41;
+} */
+.payment-home-btn{
+    position: absolute;
+    transform: translate(40vw , -38vh);
+}
+
+.payment-main-div .payment-body .payment-home-btn button{
+    width: 5vw;
+    height: 5vh;
+    font-weight: 600;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px black;
+    color: #014d41;
+    letter-spacing: .2px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.payment-main-div .payment-body .payment-home-btn button:hover{
+    background-color: #014d41;
+    color: #fff;
+}

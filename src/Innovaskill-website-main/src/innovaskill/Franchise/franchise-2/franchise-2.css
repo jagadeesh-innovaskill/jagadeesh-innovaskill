@@ -1,0 +1,71 @@
+.franchise-2-main{
+    width: 100%;
+    height:fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Hanken Grotesk", sans-serif;
+}
+
+.franchise-2-main .franchise-2-body{
+    width: 90%;
+} 
+
+.fsd_section5 h1{
+    color: #007664;
+    padding-left: 5vw;
+    margin: 3vh 0;
+    font-family: "Hanken Grotesk", sans-serif;
+}
+  .fsd_section5 img{
+    margin-left: 10vw;
+    width: 80%;
+    box-shadow: 0px 0px 10px 5px #007664;
+  }
+  .fsd_section4content .fsd_section5-para{
+    padding-top: 4vh;
+  }
+  
+  .fsd_section6 h1{
+    color: #007664;
+    margin: 5vh 5vw;
+    font-family: "Hanken Grotesk", sans-serif;
+    /* padding-left: 4vw; */
+    /* margin: 4vh 0vw 3vh 0vw; */
+  }
+  .fsd_section6 img{
+    margin: 0vh 0vw 0vh 15vw;
+    height: 45vh;
+    width: 70%;
+    box-shadow: 0px 0px 10px 5px #007664;
+  }
+
+
+
+
+
+
+  /* style for form  */
+
+.franchise-form-main{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.franchise-form-main .franchise-form-body{
+    width: 90%;
+}
+
+.franchise-form-main .franchise-form-body .franchise-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.franchise-form-body .franchise-form .form{
+    width: 40%;
+}
